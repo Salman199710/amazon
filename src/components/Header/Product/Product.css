@@ -16,4 +16,9 @@
     height: 30px;
     border: 1px solid darkorange;
     border-radius: 5px;
+    cursor: pointer;
+}
+.Main-button :hover{
+    background-color: aqua;
+    color: lightseagreen;
 }
