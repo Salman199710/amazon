@@ -12,7 +12,7 @@ const Shop = () => {
     
     const handleAddProduct = (product) => {
         console.log("Product Added", product);
-        const newCart = [...cart , Product];
+        const newCart = [...cart , product];
     setCart(newCart);
     }
     
